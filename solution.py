@@ -19,10 +19,10 @@ num3 = 4
 num4 = 5
 
 product = 1
-product *= num1
-product *= ___
-product *= ___
-______________
+product *= num1 
+product *= num4 
+product *= num2 
+
 
 print("The product is:", product)
 
@@ -39,18 +39,20 @@ char9 = "r"
 char10 = "l"
 char11 = "d"
 
-reverse = ______
-reverse += ______
-reverse += ______
-_________
-_________
-_________
-_________
-_________
-_________
-_________
-_________
-_________
+reverse = char11
+reverse +=char10
+reverse +=char9
+reverse +=char8
+reverse +=char7
+reverse +=char10
+reverse +=char6
+reverse +=char5
+reverse +=char4
+reverse +=char3
+reverse +=char2
+reverse +=char1
+
+
 
 print("The resulting string is:", reverse)
 
@@ -59,9 +61,8 @@ str1 = "apple"
 str2 = "banana"
 str3 = "cherry"
 
-_________
-_________
-_________
 
-print("The concatenated string is:", concatenated)
+concentenated = str1+str2+str3
+
+print("The concatenated string is:", concentenated)
 
